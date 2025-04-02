@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b2a225-6a87-4801-b390-24d053d21011" name="Changes" comment="">
+    <list default="true" id="23054803-34d1-46d4-a303-facb8f594797" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../config-data/ms-cliente-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/ms-cliente-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/MsClienteApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/config/OpenApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/controller/ClienteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/entity/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/repository/ClienteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/service/ClienteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/service/impl/ClienteServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-registry-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-registry-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/MsClienteApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/entity/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ms_client/service/impl/ClienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +37,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2vC0att64RRVJ3A0YKf6iO4qx1y" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vBy8P9zNSZzZoBjA0YfYbNVrDH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,21 +53,27 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.MsRegistryServerApplication.executor": "Run",
+    "Spring Boot.MsCatalogoApplication.executor": "Run",
+    "Spring Boot.MsClienteApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/DATOS_UNIVERSIDAD/Distribuidas/DAD-2025-G2/ms_cliente",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="MsRegistryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ms-registry-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.msregistryserver.MsRegistryServerApplication" />
+    <configuration name="MsClienteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms_catalogo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ms_client.MsClienteApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,12 +90,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70b2a225-6a87-4801-b390-24d053d21011" name="Changes" comment="" />
-      <created>1743633816169</created>
+      <changelist id="23054803-34d1-46d4-a303-facb8f594797" name="Changes" comment="" />
+      <created>1743632601590</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1743633816169</updated>
-      <workItem from="1743633817286" duration="2242000" />
+      <updated>1743632601590</updated>
+      <workItem from="1743632602847" duration="2652000" />
+      <workItem from="1743635400815" duration="1121000" />
     </task>
     <servers />
   </component>
