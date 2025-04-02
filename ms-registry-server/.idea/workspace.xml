@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70b2a225-6a87-4801-b390-24d053d21011" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../config-data/ms-cliente-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/ms-cliente-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/MsClienteApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/config/OpenApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/controller/ClienteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/entity/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/repository/ClienteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/service/ClienteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/java/com/example/ms_client/service/impl/ClienteServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms_client/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743633816169</updated>
-      <workItem from="1743633817286" duration="2242000" />
+      <workItem from="1743633817286" duration="2713000" />
     </task>
     <servers />
   </component>
