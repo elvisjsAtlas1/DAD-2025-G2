@@ -6,13 +6,16 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ClienteService {
-    public List<Cliente> listar();
 
-    public Cliente guardar(Cliente cliente);
+    List<Cliente> listar();
 
-    public Cliente actualizar(Cliente cliente);
+    Cliente guardar(Cliente cliente);
 
-    public Optional<Cliente> listarPorId(Integer id);
+    Cliente actualizar(Cliente cliente);
 
-    public void eliminarPorId(Integer id);
+    Optional<Cliente> listarPorId(Integer id);
+
+    void eliminarPorId(Integer id);
+
+    Optional<Cliente> obtenerClienteConNombreCategoria(Integer id);
 }

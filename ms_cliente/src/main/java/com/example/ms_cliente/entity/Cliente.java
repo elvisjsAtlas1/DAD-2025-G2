@@ -1,9 +1,6 @@
 package com.example.ms_cliente.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 //@Data
@@ -16,6 +13,26 @@ public class Cliente {
     private String email;
     private String telefono;
     private String direccion;
+    private Integer categoriaId;
+    @Transient
+    private String categoriaNombre;
+
+
+    public Cliente() {}
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", email='" + email + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", categoriaId=" + categoriaId +
+                ", categoriaNombre='" + categoriaNombre + '\'' +
+                '}';
+    }
 
     public Integer getId() {
         return id;
@@ -65,26 +82,30 @@ public class Cliente {
         this.direccion = direccion;
     }
 
-    public Cliente(Integer id, String nombre, String apellido, String email, String telefono, String direccion) {
+    public Integer getCategoriaId() {
+        return categoriaId;
+    }
+
+    public void setCategoriaId(Integer categoriaId) {
+        this.categoriaId = categoriaId;
+    }
+
+    public String getCategoriaNombre() {
+        return categoriaNombre;
+    }
+
+    public void setCategoriaNombre(String categoriaNombre) {
+        this.categoriaNombre = categoriaNombre;
+    }
+
+    public Cliente(Integer id, String nombre, String apellido, String email, String telefono, String direccion, Integer categoriaId, String categoriaNombre) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.telefono = telefono;
         this.direccion = direccion;
+        this.categoriaId = categoriaId;
+        this.categoriaNombre = categoriaNombre;
     }
-    public Cliente() {}
-
-    @Override
-    public String toString() {
-        return "Client{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", email='" + email + '\'' +
-                ", telefono='" + telefono + '\'' +
-                ", direccion='" + direccion + '\'' +
-                '}';
-    }
-
 }

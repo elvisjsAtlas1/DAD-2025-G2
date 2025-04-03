@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b2a225-6a87-4801-b390-24d053d21011" name="Changes" comment="" />
+    <list default="true" id="70b2a225-6a87-4801-b390-24d053d21011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/entity/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_client/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/MsClienteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/MsClienteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/service/impl/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_cliente/src/main/java/com/example/ms_cliente/service/impl/ClienteServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743633816169</updated>
-      <workItem from="1743633817286" duration="2950000" />
+      <workItem from="1743633817286" duration="4491000" />
     </task>
     <servers />
   </component>
